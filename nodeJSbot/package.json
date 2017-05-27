@@ -7,6 +7,10 @@
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/Desikosh/nodeJSbot"
+},
   "dependencies": {
     "node-telegram-bot-api": "^0.27.1"
   },
