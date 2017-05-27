@@ -1,0 +1,9 @@
+{
+  "name": "node-jsbot",
+  "version": "0.0.0",
+  "description": "nodeJSbot",
+  "main": "server.js",
+  "author": {
+    "name": "Saffary"
+  }
+}
