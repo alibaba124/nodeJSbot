@@ -8,10 +8,11 @@
     "start": "node server.js"
   },
   "repository": {
-  "type": "git",
-  "url": "git://github.com/Desikosh/nodeJSbot"
-},
+    "type": "git",
+    "url": "git://github.com/Desikosh/nodeJSbot"
+  },
   "dependencies": {
+    "node-storage": "0.0.7",
     "node-telegram-bot-api": "^0.27.1"
   },
   "devDependencies": {},

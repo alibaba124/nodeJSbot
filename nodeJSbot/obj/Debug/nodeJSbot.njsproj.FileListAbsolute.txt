@@ -1,0 +1,2 @@
+E:\Codes\BlankTGbot\nodeJSbot\nodeJSbot\obj\Debug\nodeJSbot.njsprojResolveAssemblyReference.cache
+E:\Codes\BlankTGbot\nodeJSbot\nodeJSbot\bin\Microsoft.NodejsTools.WebRole.dll
