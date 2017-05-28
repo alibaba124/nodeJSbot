@@ -6,6 +6,16 @@ const token = '308523131:AAGES3E4I6cMsl7KiHfn3PRXPNGJv-XF4L0';//me
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
 
+
+
+
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
+
+
+
+
 // Matches "/echo [whatever]"
 //mmnmnnm
 bot.onText(/\/echo (.+)/, (msg, match) => {
