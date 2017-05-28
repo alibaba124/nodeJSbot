@@ -21,7 +21,6 @@ bot.onText(/\$(\w+)\n\$([\w\W]*)/gu, (msg, regres)=>{
 
 bot.onText(/\/(\w+)/, (msg, regresult) => {
 	const chatId = msg.chat.id;
-	bot.sendMessage(chatId, 'here');
 	var temp = store.get(regresult['1']);
 	if (temp != null) {
 		bot.sendMessage(chatId, temp);
