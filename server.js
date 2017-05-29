@@ -1,7 +1,7 @@
 ﻿const TelegramBot = require('node-telegram-bot-api');
 
-const token = '308523131:AAGES3E4I6cMsl7KiHfn3PRXPNGJv-XF4L0';//me
-//const token = '302900357:AAHt9OvChQgyYDnb1meLWqY5K3_79aonVpI';//him
+
+const token = '302900357:AAHt9OvChQgyYDnb1meLWqY5K3_79aonVpI';
 
 const bot = new TelegramBot(token, { polling: true });
 
@@ -21,6 +21,7 @@ bot.onText(/\$(\w+)\n\$([\w\W]*)/gu, (msg, regres)=>{
 
 bot.onText(/\/(\w+)/, (msg, regresult) => {
 	const chatId = msg.chat.id;
+	bot.sendMessage(chatId, 'here');
 	var temp = store.get(regresult['1']);
 	if (temp != null) {
 		bot.sendMessage(chatId, temp);
