@@ -1,7 +1,7 @@
 ﻿const TelegramBot = require('node-telegram-bot-api');
 
- const token = '302900357:AAHt9OvChQgyYDnb1meLWqY5K3_79aonVpI'; 
-
+ //const token = '302900357:AAHt9OvChQgyYDnb1meLWqY5K3_79aonVpI'; 
+const token = '308523131:AAGES3E4I6cMsl7KiHfn3PRXPNGJv-XF4L0';
 const bot = new TelegramBot(token, { polling: true });
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
